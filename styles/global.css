@@ -93,3 +93,18 @@ h2 {
   transition: all 250ms ease-out;
   text-decoration: underline;
 }
+#topMenu .logo {
+  float: left;
+  padding-top: 13px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+  #topMenu .logo:hover {
+    color: #4392F1;
+  }
+  
+.logo {
+  font-family: "Anton", cursive;
+}
