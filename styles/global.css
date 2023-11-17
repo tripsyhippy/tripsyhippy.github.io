@@ -69,29 +69,29 @@ h2 {
 }
 #topLinks ul,
 #footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
 }
 #topLinks li {
-  float: left;
+      float: left;
 }
 #topLinks li a {
-  color: #333;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  -webkit-transition: all 250ms ease-out;
-  -ms-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
+    color: #333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
 }
-#topLinks li a:hover {
-  color: #4392F1;
-  -webkit-transition: all 250ms ease-out;
-  -ms-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
-  text-decoration: underline;
+      #topLinks li a:hover {
+        color: #4392F1;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        text-decoration: underline;
 }
 #topMenu .logo {
   float: left;
@@ -108,3 +108,40 @@ h2 {
 .logo {
   font-family: "Anton", cursive;
 }
+#banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  text-align: center;
+  padding-top: 300px;
+  color: #333;
+}
+#banner .logo {
+    margin-top: 20px;
+}
+#banner #action {
+    font-weight: bold;
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+    
+    #banner #action a {
+      -webkit-transition: all 250ms ease-out;
+      -ms-transition: all 250ms ease-out;
+      transition: all 250ms ease-out;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      background-color: #4392F1;
+    }
+      #banner #action a:hover {
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        background-color: #F46036;
+        padding: 20px 40px;
+      }
+
+tesr
